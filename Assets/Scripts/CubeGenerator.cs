@@ -23,7 +23,7 @@ public class CubeGenerator : MonoBehaviour
             yield return new WaitForSeconds(delta);
 
             if(delta > 0.5f){
-                delta -=0.5f;
+                delta -=0.05f;
             }
         }
     }
